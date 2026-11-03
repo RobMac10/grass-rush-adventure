@@ -56,6 +56,7 @@
     var h = el('h1', { tabindex: '-1', text: title });
     main.appendChild(h);
     nodes.forEach(function (n) { if (n) main.appendChild(n); });
+    main.appendChild(el('p', { 'class': 'homebar' }, [el('a', { 'class': 'btn dark big home', href: 'https://robmac10.github.io/history.html', text: '← Home' })]));
     document.title = title + ' · ' + D.title;
     window.scrollTo(0, 0);
     h.focus();

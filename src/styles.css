@@ -135,3 +135,6 @@ footer{border-top:4px double var(--rule);margin-top:30px;padding-top:10px;font-s
  .bigpara{font-size:18px}
  nav a{font-size:14px;padding:6px 10px;min-height:40px}
 }
+
+.homebar{margin:40px 0 8px;padding-top:20px;border-top:1px solid var(--rule);text-align:center}
+.homebar .btn{min-width:160px}
