@@ -147,3 +147,41 @@ footer{border-top:4px double var(--rule);margin-top:30px;padding-top:10px;font-s
 .folkfrom,.folkknown{margin:10px 0;padding:6px 12px;border-left:6px solid var(--rule);background:#fffaf0}
 .folkknown{border-left-color:var(--green)}
 .folkfrom h3,.folkknown h3{margin-top:2px}
+
+/* Money from London and the settlement map */
+.keyline{font-size:20px;font-weight:bold;line-height:1.4;background:var(--soft);border:2px solid var(--ink);border-left:10px solid var(--red);padding:12px 14px;margin:12px 0 6px}
+.mapctl{display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center;margin:12px 0 4px}
+.mapstep{display:flex;align-items:center;gap:8px;flex:1 1 320px}
+.mapstep input[type=range]{flex:1;min-width:120px;height:44px;accent-color:var(--red)}
+.mapstep .btn:disabled{opacity:.45;cursor:default}
+.mapdecade{font-weight:bold;flex:1 1 100%}
+.mapview .btn[aria-pressed=true]{background:var(--ink);color:var(--paper)}
+.mapview{display:flex;gap:6px}
+.mapticks{display:flex;justify-content:space-between;font-family:"Courier New",Courier,monospace;font-size:13px;margin:0 70px 8px 90px}
+.mapnote h2{margin-top:0}
+.mapbox{display:grid;grid-template-columns:minmax(0,1.45fr) minmax(0,1fr);gap:14px;align-items:start;margin:10px 0}
+.qldmap{width:100%;height:auto;background:#e4eef0;border:2px solid var(--ink)}
+.map-land{fill:#eadcb4;stroke:var(--rule);stroke-width:2.5}
+.map-sea{font-size:17px;font-style:italic;fill:#35566a}
+.map-town{fill:#555}
+.map-townname{font-size:16px;fill:#333}
+.dist{cursor:pointer;outline:none}
+.dist .halo{fill:rgba(31,74,44,.14);stroke:none}
+.dist .dot{fill:var(--green);stroke:#fff;stroke-width:2.5}
+.dist.new .halo{fill:rgba(122,31,18,.2)}
+.dist.new .dot{fill:var(--red)}
+.dist.sel .dot{stroke:var(--ink);stroke-width:4}
+.dist:focus .dot,.dist:focus-visible .dot{stroke:var(--ink);stroke-width:5}
+.dlabel{font-size:19px;font-weight:bold;fill:var(--ink);paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round}
+.mapdetail{margin:0}
+.distcard{margin:0 0 12px}
+.badge.b-new{background:var(--red);color:#fff}
+.maplist .card{margin-bottom:12px}
+.mapbox[hidden],.maplist[hidden]{display:none}
+@media (max-width:700px){
+ .mapbox{grid-template-columns:1fr}
+ .mapticks{margin:0 8px 8px}
+}
+.card .where .badge{text-transform:none;letter-spacing:0;font-size:14px;font-family:Georgia,serif;white-space:normal}
+.badge.b-new{border-color:var(--red)}
+.map-rail{fill:#777;stroke:#fff;stroke-width:1.5}
