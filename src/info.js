@@ -1,0 +1,244 @@
+// The Queensland Grass Rush, 1840 to 1902: information bank. All text, facts, quotations and questions.
+// Every fact has a source key from src/sources.js. Nothing in this file is invented.
+// "discuss" and "teacherNotes" are removed from the student build by build.js.
+window.INFO = {
+id: 'grass',
+title: 'The Queensland Grass Rush, 1840 to 1902',
+subtitle: 'An information bank about squatters, runs and stations, sheep and cattle, land laws and drought',
+description: 'A non-fiction information bank about the Queensland grass rush: squatters, runs and stations, the move from sheep to cattle, land laws, drought and Aboriginal people, 1840 to 1902. Overview, timeline, places, people, real lives and sources.',
+dateLeft: 'Queensland · 1840 to 1902',
+dateRight: 'By Robin McKean',
+theme: '#1f2b1a',
+footnote: 'Aboriginal and Torres Strait Islander readers are advised that this resource names places where people died. Everything in it comes from the sources listed on the Sources page.',
+footer: 'The Queensland Grass Rush. A non-fiction information bank by Robin McKean. This resource has no tracking and no cookies. An earlier choose-your-path story version is kept in the archive folder of the project on GitHub.',
+warning: [
+  'This resource is about grassland that Aboriginal people had cared for over thousands of years, and about the squatters who took it up for sheep and cattle. It says that violence against Aboriginal people and violence against settlers happened. It does not describe the violence in detail.',
+  'Aboriginal and Torres Strait Islander readers are advised that this resource names places where people died, and that the old records it draws on were written by Europeans.'
+],
+review: 'Review status: this resource has not yet been reviewed by Aboriginal community members. Review is being sought. Please tell the author if anything needs to change.',
+sourcesIntro: 'Every fact in this resource comes from one of these sources. Newspapers named in the sources can be read on Trove. Where a newspaper report is quoted by a researcher or a blog, that page is listed, not the newspaper.',
+imageNote: 'All images are old photographs, maps or drawings that are in the public domain, and each is credited. No images in this resource were made by artificial intelligence. Some photographs show groups of workers. The sources read here do not say who they were, so the captions do not say either.',
+overview: {
+  image: 'yandilla',
+  lead: 'From 1840 squatters took up grassland in what is now Queensland, first on the Darling Downs and then further north and west. They grazed sheep and later cattle on large runs. The land was Aboriginal Country, managed for thousands of years. Conflict, land laws, drought and the market for wool and beef shaped the next sixty years.',
+  glance: [
+    { n: '92', label: 'conflict events counted on the Darling Downs by Wallis and Burke', src: ['atf'] },
+    { n: '3,000 km²', label: 'the size of some stations at the height of squatter pastoralism in the 1880s', src: ['nma'] },
+    { n: '106 to 54 million', label: 'sheep in Australia in 1892 and in 1903, after the Federation Drought', src: ['nma'] },
+    { n: 'Nearly 3 million', label: 'cattle lost in Queensland alone in the Federation Drought', src: ['nma'] }
+  ],
+  sections: [
+    { h: 'Squatters, runs and stations', p: [
+      'A “squatter” was a person who grazed stock on Crown land, at first without a lease. A “run” was the area of land a squatter held. A “station” was the run together with its buildings and workers. In 1842 the northern districts of New South Wales, which are now south-east Queensland, were opened to free settlement. The Leslie brothers took up runs on the Darling Downs from March 1840, and the Downs was officially opened for settlement in 1843.',
+      'The State Library of Queensland says the first squatters came to sell good raw wool to English mills, and that many were younger sons of English and Scottish gentry. The squatters ruled over a labour force of travelling bush workers, stockmen and shepherds. The State Library says the squatters’ way of life on the Darling Downs lasted less than fifty years.'
+    ], src: ['atf', 'slqShepherd', 'tales'] },
+    { h: 'Aboriginal people and the grass', p: [
+      'The Downs had been the home, for thousands of years, of the Keinjan, Giabal, Jarowair and Barunggam peoples. They practised a burning season to manage the grasses of the plains. Archaeologists Lynley Wallis and Heather Burke write that the grasslands were vital to Aboriginal people and were managed by annual cultural burning.',
+      'Wallis and Burke describe the period from 1840 to the end of the 1850s on the Downs as almost continuous conflict, and say about 90 per cent of it took place on pastoral runs. Settlers also killed Aboriginal people, in parties led by squatters and in single attacks. By the 1850s Aboriginal defiance had worn down in the southern Downs.'
+    ], src: ['slqShepherd', 'atf'] },
+    { h: 'The Native Police and the frontier', p: [
+      'The Native Police set up their first camp in what became Queensland in May 1849, at Callandoon. In 1851 squatters built barracks near the present Condamine, at their own expense, after asking for help. In 1858 a squatter told a New South Wales committee that his district became quiet within three months of the Native Police arriving, and that his land became fifty per cent more valuable.',
+      'In October 1861, near Springsure in central Queensland, Gayiri people killed 19 members of Horatio Wills’s party at Cullin-la-ringo. Afterwards, settlers and then Native Police killed many Gayiri people. The exact number is not known.'
+    ], src: ['atf', 'newcastle', 'guardian'] },
+    { h: 'Land laws', p: [
+      'Queensland became a separate colony on 10 December 1859. The Crown Lands Alienation Act of 1868 opened land that was not under a pastoral lease to selection. The same Act let pastoralists make pre-emptive selections from their own leases, and the Queensland State Archives says this let pastoralists secure land along creek and river banks. The Lands Act of 1884 abolished pre-emptive purchases.',
+      'The National Museum of Australia says the eastern colonies passed land laws in the 1860s to control squatters and encourage closer settlement, with the aim of breaking large runs into smaller blocks for farming and grazing. It says this was not always achieved, because squatters found ways to hold on to productive country.'
+    ], src: ['abs150', 'qsaLand', 'nma'] },
+    { h: 'From sheep to cattle', p: [
+      'Gracemere was a sheep station run by the Archer family near Rockhampton. Black spear grass overran the country, and the station’s wool book described more and more bales as “seedy”. The family bought country at Tambo in 1872 and drove the sheep there between 1872 and 1874. By 1880 there were no sheep left at Gracemere.',
+      'The Ross River Meatworks at Townsville began to be built in August 1891, and by June 1892 the first cattle were being processed. The first shipment of frozen beef, 600 tons, left Townsville for London.'
+    ], src: ['fitzroy', 'ross'] },
+    { h: 'Strikes, drought and the end of the squatters’ era', p: [
+      'In 1891 central Queensland was occupied for almost four months with a strike by shearers. The strike failed, and thirteen union leaders were sentenced to three years in prison on 20 May 1891.',
+      'The National Museum of Australia says the Federation Drought, from 1895 to 1903, was the worst in Australia’s history, measured by stock losses. Banks foreclosed on some stations and many graziers walked off their land. The Museum says the drought ended squatter-dominated pastoralism in New South Wales and Queensland, as bank foreclosures and the resumption of leases led to the partition of large stations.'
+    ], src: ['slqStrike', 'nma'] }
+  ],
+  words: [
+    ['Squatter', 'A person who grazed stock on Crown land, at first without a lease.'],
+    ['Run', 'The area of land a squatter held.'],
+    ['Station', 'The run together with its buildings and workers.'],
+    ['Head station', 'The main set of buildings on a run.'],
+    ['Outstation', 'A hut and yards a long way from the head station.'],
+    ['Shepherd', 'A worker who watched a flock of sheep.'],
+    ['Hut keeper', 'A worker who looked after a hut and its yards.'],
+    ['Selector', 'A person who took up a block of land under a Land Act.'],
+    ['Lease', 'The right to use Crown land for a set time.'],
+    ['Pre-emptive purchase', 'The right of a pastoralist to buy land from his own lease.'],
+    ['Resumption', 'The government taking back part of a lease.'],
+    ['Dummying', 'Selecting land on behalf of someone else, against the law. (This meaning is explained from general knowledge. The Archives page read does not define it.)'],
+    ['Merino', 'A breed of sheep with fine wool.'],
+    ['Dispersal', 'The word used in the records for breaking up an Aboriginal camp by force.']
+  ],
+  left: [
+    'This resource does not describe violence in detail. It gives counts and dates from the sources.',
+    'It gives no names or customs of Aboriginal people beyond what the sources say. The old records often use insulting words about Aboriginal people, and some of the web pages named in the sources quote them. Those words are not copied here.',
+    'No personal account by an Aboriginal person of the 1840s on the Downs was found in the sources read here. The records are almost all by squatters, officials and settlers.'
+  ]
+},
+timeline: [
+  { date: 'March 1840', title: 'The Leslie brothers take up runs on the Darling Downs', text: 'The Leslie brothers took up runs from March 1840. The Downs had been the home, for thousands of years, of the Keinjan, Giabal, Jarowair and Barunggam peoples, who practised a burning season to manage the grasses.', src: ['atf', 'slqShepherd'] },
+  { date: 'March 1841', title: 'Fifty-five European men on the Downs', text: 'A census recorded 55 European men on the Downs.', src: ['atf'] },
+  { date: 'November 1841', title: 'A squatter’s letter about a reprisal', text: 'George Leslie wrote to his parents that Aboriginal people had killed or carried away about 60 young ewes, and that the Leslies had “given them what they will not forget in a hurry”. Wallis and Burke read this as a major reprisal.', src: ['atf'] },
+  { date: '1 February 1842', title: 'Kilcoy station poisoning', text: 'At Kilcoy station, flour mixed with strychnine was given to a large group of Aboriginal people by two shepherds employed by the lessee, Evan MacKenzie. At least sixty people died. Kilcoy is east of the Darling Downs, not on the Downs.', flag: 'The record cites the Sydney Morning Herald of 5 December 1842. Kilcoy is included because of its link to the region, not because it is on the Downs.', src: ['awKilcoy'] },
+  { date: '1842', title: 'Northern districts opened to free settlement', text: 'Labour for the runs was recruited in Sydney, and recruits were offered a free fare and a bonus.', src: ['tales'] },
+  { date: 'January 1842 to November 1843', title: 'Thirteen shepherds killed', text: 'The Commissioner of Crown Lands, Christopher Rolleston, reported that at least 13 shepherds had been killed, and that thousands of sheep had been killed or driven off. The violence also raised wages.', src: ['atf'] },
+  { date: '1843', title: 'The Downs opened for settlement', text: 'The Downs was officially opened for settlement in 1843. A census in September 1843 recorded about 300 people, including a reasonable number of women. Rolleston became Commissioner of Crown Lands in 1843. In 1843 and 1844 Wallis and Burke describe a state of open warfare across the Downs.', src: ['atf'] },
+  { date: '1846 to January 1847', title: 'Wages and a sentence for refusing to go to a station', text: 'The Moreton Bay Courier reported wages of £25 a year for good shepherds and £22 for hut keepers, with good rations. The paper also complained that some men took the fare and then stayed in Brisbane. In January 1847 it reported that a man who had been hired as a shepherd and refused to go to his station was sentenced to three months’ hard labour.', flag: 'These newspaper reports are read as they are quoted in a blog, not on Trove.', src: ['tales'] },
+  { date: '1848', title: 'The year with the most conflict events on the Downs', text: 'The year with the most events was 1848, with 16 events and 27 deaths: 20 Aboriginal people and 7 Europeans.', src: ['atf'] },
+  { date: '26 October 1848', title: 'Canning Creek', text: 'Three Aboriginal women and a child were killed at Canning Creek. Four people saw it, but all said they could not name those who did it. Rolleston wrote that he could not trace them.', src: ['atf'] },
+  { date: 'May 1849', title: 'The first Native Police camp in what became Queensland', text: 'Commandant Frederick Walker set up the camp at Callandoon, on the present border, with 14 troopers recruited from the Murrumbidgee and Murray River areas of southern New South Wales and northern Victoria.', src: ['atf'] },
+  { date: '1851', title: 'Squatters build barracks', text: 'After asking for help, squatters built barracks at Wandai Gumbal, near the present Condamine, at their own expense.', src: ['atf'] },
+  { date: 'November 1853', title: 'A newspaper says the first fierce resistance is “subdued”', text: 'Wallis and Burke cite a newspaper of November 1853 that said the first fierce resistance had been “subdued”, and they say violence was still occurring sporadically.', src: ['atf'] },
+  { date: '1858', title: 'A squatter’s evidence on the Native Police', text: 'A squatter told a New South Wales committee that his district became quiet within three months of the Native Police arriving, and that his land became fifty per cent more valuable.', src: ['atf'] },
+  { date: '10 December 1859', title: 'Queensland becomes a separate colony', text: 'Until then Queensland was part of New South Wales.', src: ['abs150'] },
+  { date: '17 October 1861', title: 'Cullin-la-ringo', text: 'Near Springsure, Gayiri people killed 19 members of Horatio Wills’s party. A University of Newcastle research database records that two Aboriginal boys had been taken by white men before the attack, and records one view that the attack was in reprisal for the killing of Gayiri people about a week earlier by Native Police. Afterwards, settlers and then Native Police killed many Gayiri people. The Guardian reports official records of at least 30 killed on the first day, and a newspaper report that Native Police shot 60 or 70 people.', flag: 'The numbers of Aboriginal people killed are not known. The sources give figures from at least 30 to about 300, and some people at the time claimed it was far larger.', src: ['newcastle', 'guardian'] },
+  { date: '1868', title: 'Crown Lands Alienation Act', text: 'The Act opened land not under a pastoral lease to selection. Selectors paid annual rent, and could freehold agricultural land after three years if they met the conditions. The same Act let pastoralists make pre-emptive selections from their own leases, at one acre for every ten shillings of improvements.', src: ['qsaLand'] },
+  { date: '1869', title: 'Pastoral Leases Act', text: 'The Queensland State Archives says that much pastoral land leased under this Act was deserted in the drought. Archibald Archer wrote in 1972 that Gracemere was reduced by resumptions after the Land Acts of 1868 and 1869.', src: ['qsaLand', 'fitzroy'] },
+  { date: 'Late 1860s to 1871', title: 'Spear grass at Gracemere', text: 'In the late 1860s the station’s wool book described more and more bales as “seedy”. In 1871 the manager, James Archer, wrote that the paddocks, after all the expense they had been, were “very little good”. Wool was then nearly two shillings a pound.', src: ['fitzroy'] },
+  { date: '1872 to 1874', title: 'The Archers move their sheep to Tambo', text: 'In 1872 the Archer family bought country at Tambo and called it Minnie Downs. The sheep were driven there from Gracemere between 1872 and 1874.', src: ['fitzroy'] },
+  { date: '1876', title: 'Lands Act on “dummying”', text: 'The Act of 1876 tried to stop “dummying” by pastoralists, but the Queensland State Archives says those efforts were unsuccessful.', src: ['qsaLand'] },
+  { date: '1877', title: 'Jondaryan the largest freehold run in Queensland', text: 'By 1877 the Jondaryan run on the Downs was the largest freehold run in Queensland, owned by Edward Wienholt and the trustees of William Kent.', src: ['atf'] },
+  { date: '1880', title: 'No sheep left at Gracemere', text: 'When Robert Stubbs Archer became manager in 1880, there were no sheep left at Gracemere.', src: ['fitzroy'] },
+  { date: '1880s', title: 'The height of squatter-dominated pastoralism', text: 'Stations in New South Wales and Queensland were sometimes up to 3,000 square kilometres in size and carried hundreds of thousands of merino sheep.', src: ['nma'] },
+  { date: '1884', title: 'Lands Act', text: 'The Lands Act of 1884 abolished pre-emptive purchases. Up to 1,280 acres could be selected as an Agricultural Farm and freeholded after five years, and up to 20,000 acres could be selected as a Grazing Farm and held on a 30-year lease.', src: ['qsaLand'] },
+  { date: 'February to May 1891', title: 'The shearers’ strike', text: 'Shearers refused to work after pastoralists proposed to cut their wages, which were then £1 for every hundred sheep shorn. Barcaldine became the centre of the strike in February. Thirteen union leaders were sentenced on 20 May 1891 to three years in prison. The strike failed. Many historians think the strike hastened the call for a political party for working people.', src: ['slqStrike', 'nma'] },
+  { date: 'August 1891 to June 1892', title: 'The Ross River Meatworks', text: 'The meatworks at Townsville began to be built in August 1891, and by June 1892 the first cattle were being processed. A blog says it was a solution to an oversupply of cattle in the region, and that it employed 700 workers at its peak. The first shipment of frozen beef, 600 tons, left Townsville on the Otarama for London.', flag: 'Other websites disagree with the blog about the condition of the first shipment when it arrived. This resource does not say.', src: ['ross'] },
+  { date: '1892', title: 'Australia’s sheep flock at 106 million', text: 'In 1892 Australia had 106 million sheep.', src: ['nma'] },
+  { date: '1894', title: 'Agricultural Lands Purchase Act', text: 'The Act let the government buy land from pastoral lessees and open it for selection for family farms. Many of the estates came from owners who were prepared to sell during the depression of the 1890s.', src: ['qsaLand'] },
+  { date: '1895 to 1903', title: 'The Federation Drought', text: 'The National Museum of Australia says it was the worst drought in Australia’s history, measured by stock losses. By 1903 the sheep flock had almost halved, to 54 million. The country lost more than 40 per cent of its cattle, nearly three million in Queensland alone.', flag: 'The Museum’s figures are for Australia as a whole, except the Queensland cattle number.', src: ['nma'] },
+  { date: '1897 to 1904', title: 'Laws on Aboriginal workers', text: 'In 1897 Queensland passed the Aboriginals Protection and Restriction of the Sale of Opium Act. Under it, an Aboriginal worker could be employed only under a permit from a protector, and employers had to sign an agreement for no more than 12 months. In 1901 a minimum wage of five shillings was set for most workers under the Act, which the Senate committee says was less than one-eighth of the “white wage”. From 1904 the wages of Aboriginal workers could be paid to protectors.', src: ['aph'] },
+  { date: '1902', title: 'Dead stock on the road; a Land Act for lessees', text: 'In 1902 local newspapers reported more than 2,000 steers dead along the Goondiwindi to Miles route in Queensland. The Land Act of 1902 was largely a relief Act for pastoral lessees hit by the drought.', src: ['nma', 'qsaLand'] },
+  { date: 'After 1902', title: 'Smaller holdings', text: 'The National Museum of Australia says that by the end of the drought many huge stations had been taken back or foreclosed by banks and divided into smaller holdings. Smaller properties and flocks became normal, and mixed farming was widely taken up. The Guardian reports that Aboriginal people who remained in the Springsure region were taken to missions or reserves from the early 1900s, under laws said to protect them.', src: ['nma', 'guardian'] }
+],
+places: [
+  { name: 'The Darling Downs', where: 'South-east Queensland · Country of the Keinjan, Giabal, Jarowair and Barunggam peoples', image: 'map', text: [
+    'The first squatters arrived in 1840, and the Downs was officially opened for settlement in 1843. Wallis and Burke count 92 conflict events in the Darling Downs district. The photographs of Yandilla (1884) and Jimbour (about 1887) in this resource show stations on the Downs.',
+    'By 1877 the Jondaryan run on the Downs was the largest freehold run in Queensland.'
+  ], src: ['atf', 'slqShepherd'] },
+  { name: 'Canning Creek', where: 'Darling Downs', text: [
+    'On 26 October 1848 three Aboriginal women and a child were killed here. Four people saw it, but all said they could not name those who did it. Rolleston wrote that he could not trace them.'
+  ], src: ['atf'] },
+  { name: 'Kilcoy station', where: 'East of the Darling Downs, not on the Downs', text: [
+    'On 1 February 1842 flour mixed with strychnine was given to a large group of Aboriginal people by two shepherds employed by the lessee, Evan MacKenzie. At least sixty people died. According to a history by Lauer that the page cites, two escaped convicts reported that 14 or 15 Aboriginal groups met in the Bunya scrub to discuss a response.'
+  ], src: ['awKilcoy'] },
+  { name: 'Callandoon and Wandai Gumbal', where: 'On the present border, and near the present Condamine', text: [
+    'Callandoon was the site of the first Native Police camp in what became Queensland, in May 1849. Squatters built barracks at Wandai Gumbal in 1851, at their own expense.'
+  ], src: ['atf'] },
+  { name: 'Jimbour and Yandilla', where: 'Darling Downs', image: 'jimbour', text: [
+    'The photograph above shows a bullock team outside the woolsheds at Jimbour Station, about 1887. A photograph of sheep washing at Yandilla Station in 1884 is on the Overview page.'
+  ], src: ['slqShepherd'] },
+  { name: 'Gracemere', where: 'Near Rockhampton · Darumbal Country', image: 'gracemere', text: [
+    'Gracemere was a sheep station run by the Archer family. Black spear grass overran the country, and the station’s sheep were moved to Tambo between 1872 and 1874. When Robert Stubbs Archer became manager in 1880, there were no sheep left.',
+    'Rockhampton is in the area that Darumbal Enterprises describes as Darumbal Country.'
+  ], src: ['fitzroy', 'darumbal'] },
+  { name: 'Springsure and Cullin-la-ringo', where: 'Central Queensland · Country of the Gayiri, Bidjara and Ghungalu peoples', text: [
+    'On 17 October 1861 Gayiri people killed 19 members of Horatio Wills’s party at Cullin-la-ringo. Afterwards settlers and then Native Police killed many Gayiri people. The numbers are not known. The Guardian article includes the views of Gayiri, Bidjara and Ghungalu people and of descendants of the Wills family.'
+  ], src: ['newcastle', 'guardian'] },
+  { name: 'Tambo (Minnie Downs)', where: 'Central-west Queensland', text: [
+    'The Archer family bought country here in 1872 and called it Minnie Downs. The sheep were driven there from Gracemere between 1872 and 1874. The National Museum of Australia says later railways and bores, which reached underground water, made it possible for stations to spread further into the dry interior.'
+  ], src: ['fitzroy', 'nma'] },
+  { name: 'Barcaldine', where: 'Central Queensland', text: [
+    'Barcaldine became the centre of the shearers’ strike in February 1891.'
+  ], src: ['slqStrike'] },
+  { name: 'Townsville (Ross River Meatworks)', where: 'North Queensland coast', text: [
+    'The meatworks began to be built in August 1891. By June 1892 the first cattle were being processed, and the first shipment of frozen beef left for London.'
+  ], src: ['ross'] },
+  { name: 'The long paddock', where: 'Travelling stock routes, western Queensland', text: [
+    'During the drought, drovers looked for feed along travelling stock routes, known as the “long paddock”. Losses of up to 70 per cent were recorded on the road, especially where watering points could be 100 kilometres apart. In 1902 local newspapers reported more than 2,000 steers dead along the Goondiwindi to Miles route.'
+  ], src: ['nma'] }
+],
+people: [
+  { kind: 'person', name: 'George Leslie', dates: 'Darling Downs, 1841', text: 'One of the Leslie brothers who took up runs on the Darling Downs from March 1840. His letter of November 1841 is quoted by Wallis and Burke.', src: ['atf'] },
+  { kind: 'person', name: 'Christopher Rolleston', dates: 'Commissioner of Crown Lands from 1843', text: 'Reported that at least 13 shepherds had been killed from January 1842 to November 1843. He tried to befriend local Aboriginal people by giving blankets, tomahawks and clothes, and by encouraging settlers to employ them. He wrote that he could not trace those who killed the people at Canning Creek in 1848.', src: ['atf'] },
+  { kind: 'person', name: 'Frederick Walker', dates: 'Commandant, 1849', text: 'Set up the first Native Police camp in what became Queensland, at Callandoon, in May 1849.', src: ['atf'] },
+  { kind: 'person', name: 'Evan MacKenzie', dates: 'Lessee of Kilcoy station, 1842', text: 'The lessee of Kilcoy station. The record says that two shepherds he employed gave flour mixed with strychnine to a large group of Aboriginal people on 1 February 1842.', src: ['awKilcoy'] },
+  { kind: 'person', name: 'Horatio Wills', dates: 'Cullin-la-ringo, 1861', text: 'The leader of the party of which 19 members were killed at Cullin-la-ringo in October 1861.', src: ['newcastle', 'guardian'] },
+  { kind: 'person', name: 'The Archer family of Gracemere', text: 'Archibald Archer, a member of the family, read a paper on Gracemere in 1972. James Archer was manager in 1871. Robert Stubbs Archer became manager in 1880.', src: ['fitzroy'] },
+  { kind: 'person', name: 'Edward Wienholt and William Kent’s trustees', dates: 'Jondaryan, 1877', text: 'The owners of the Jondaryan run, the largest freehold run in Queensland in 1877.', src: ['atf'] },
+  { kind: 'person', name: 'Dr Ros Kidd', text: 'Told the Senate committee that between 4,000 and 5,500 pastoral workers in Queensland each year, from the 1920s to the 1960s, had their labour controlled by the government. She said this was a “guesstimate” and was probably much too low.', src: ['aph'] },
+  { kind: 'group', name: 'The Keinjan, Giabal, Jarowair and Barunggam peoples', text: 'The peoples of the Darling Downs for thousands of years. They practised a burning season to manage the grasses of the plains.', src: ['slqShepherd', 'atf'] },
+  { kind: 'group', name: 'The Gayiri, Bidjara and Ghungalu peoples', text: 'The Guardian article includes the views of Gayiri, Bidjara and Ghungalu people about Cullin-la-ringo and what followed.', src: ['guardian'] },
+  { kind: 'group', name: 'The Darumbal people', text: 'Traditional Owners of the Rockhampton and Capricorn Coast area, where Gracemere is.', src: ['darumbal'] },
+  { kind: 'group', name: 'Squatters', text: 'Many of the first squatters were younger sons of English and Scottish gentry. They came to sell good raw wool to English mills.', src: ['slqShepherd'] },
+  { kind: 'group', name: 'Shepherds, hut keepers and stockmen', text: 'The squatters’ labour force. In 1846 the Moreton Bay Courier reported wages of £25 a year for good shepherds and £22 for hut keepers, with good rations. Shepherds were among the 13 killed from 1842 to 1843.', src: ['slqShepherd', 'tales', 'atf'] },
+  { kind: 'group', name: 'Selectors', text: 'People who took up blocks of land under the Land Acts. Under the Act of 1868 selectors paid annual rent and could freehold agricultural land after three years if they met the conditions.', src: ['qsaLand'] },
+  { kind: 'group', name: 'Shearers and union leaders', text: 'Shearers went on strike in 1891 after pastoralists proposed to cut their wages. Thirteen union leaders were sentenced to three years in prison on 20 May 1891.', src: ['slqStrike'] },
+  { kind: 'group', name: 'Drovers', text: 'Moved stock along travelling stock routes, the “long paddock”, during the drought.', src: ['nma'] },
+  { kind: 'group', name: 'The Native Police', text: 'Troopers recruited in other parts of southern New South Wales and northern Victoria served in the first camp at Callandoon in 1849.', src: ['atf'] },
+  { kind: 'org', name: 'The Queensland parliament', text: 'Passed the Land Acts of 1868, 1876, 1884, 1894 and 1902, and the Aboriginals Protection and Restriction of the Sale of Opium Act of 1897.', src: ['qsaLand', 'aph'] }
+],
+lives: [
+  { name: 'George Leslie', dates: 'Darling Downs, November 1841', text: [
+    'George Leslie was one of the Leslie brothers, the first squatters on the Darling Downs. In November 1841 he wrote to his parents about the loss of sheep. He wrote that Aboriginal people had killed or carried away about 60 young ewes. Wallis and Burke read his words as a major reprisal.'
+  ], quote: { lines: ['given them what they will not forget in a hurry'], by: 'George Leslie, letter to his parents, November 1841, as quoted by Wallis and Burke.' }, after: ['Wallis and Burke also note that the violence was costly for squatters, in lives, stock and wages.'], src: ['atf'] },
+  { name: 'Christopher Rolleston', dates: 'Commissioner of Crown Lands, from 1843', text: [
+    'Rolleston reported that at least 13 shepherds had been killed from January 1842 to November 1843, and that thousands of sheep had been killed or driven off. He also tried to befriend local Aboriginal people by giving blankets, tomahawks and clothes. Wallis and Burke, citing the historian M. Shield, say this was not often successful because Aboriginal people did not trust Europeans after violence by shepherds and stockmen against Aboriginal women.',
+    'After three Aboriginal women and a child were killed at Canning Creek on 26 October 1848, four people saw it but all said they could not name those who did it. Rolleston wrote that he could not trace them.'
+  ], src: ['atf'] },
+  { name: 'A hired shepherd, January 1847', dates: 'Moreton Bay, 1847', text: [
+    'The name of this man is not given in the source read here. In January 1847 the Moreton Bay Courier reported that a man who had been hired as a shepherd and refused to go to his station was sentenced to three months’ hard labour. In 1846 the same paper had complained that some men took the fare and then stayed in Brisbane.'
+  ], flag: 'These reports are read as quoted in a blog, not on Trove.', src: ['tales'] },
+  { name: 'James Archer and Gracemere', dates: '1871', text: [
+    'James Archer was the manager of Gracemere, the Archer family’s sheep station near Rockhampton. In 1871 he wrote that the paddocks, after all the expense they had been, were “very little good”. Wool was then nearly two shillings a pound. In 1872 the family bought country at Tambo, and the sheep were driven there between 1872 and 1874.'
+  ], quote: { lines: ['very little good'], by: 'James Archer, 1871, as quoted by Archibald Archer in 1972.' }, src: ['fitzroy'] },
+  { name: 'The thirteen union leaders of 1891', dates: 'Barcaldine, 1891', text: [
+    'In 1891 shearers refused to work after pastoralists proposed to cut their wages, which were then £1 for every hundred sheep shorn. Barcaldine became the centre of the strike in February. Thirteen union leaders were sentenced on 20 May 1891 to three years in prison. The strike failed. The names of the leaders are not given in the source read here.'
+  ], image: 'shearers', src: ['slqStrike', 'nma'] }
+],
+know: [
+  { t: 'The Downs were managed for thousands of years with an annual cultural burning season.', src: ['slqShepherd', 'atf'] },
+  { t: 'Wallis and Burke count 92 conflict events on the Darling Downs. About 90 per cent of the conflict took place on pastoral runs.', src: ['atf'] },
+  { t: 'Kilcoy is east of the Darling Downs, not on the Downs.', src: ['awKilcoy'] },
+  { t: 'The first Native Police troopers in Queensland were recruited from the Murrumbidgee and Murray River areas of southern New South Wales and northern Victoria.', src: ['atf'] },
+  { t: 'The word “dummying” meant selecting land on behalf of someone else, against the law. The Act of 1876 tried to stop it, but the State Archives says the efforts were unsuccessful.', src: ['qsaLand'] },
+  { t: 'Black spear grass overran the country at Gracemere after the wet years of the 1850s, according to an old sheep farmer quoted by Archibald Archer. It spoiled the wool.', src: ['fitzroy'] },
+  { t: 'In 1892 Australia had 106 million sheep. By 1903 the flock had almost halved, to 54 million.', src: ['nma'] },
+  { t: 'Drovers looked for feed along the “long paddock”. Losses of up to 70 per cent were recorded on the road.', src: ['nma'] },
+  { t: 'The Senate committee says the 1901 minimum wage for Aboriginal workers under the 1897 Act was less than one-eighth of the “white wage”.', src: ['aph'] },
+  { t: 'The State Library of Queensland says the squatters’ way of life on the Darling Downs lasted less than fifty years.', src: ['slqShepherd'] },
+  { t: 'In 1902 local newspapers reported more than 2,000 steers dead along the Goondiwindi to Miles route.', src: ['nma'] }
+],
+disagree: [
+  'The numbers of Aboriginal people killed at Cullin-la-ringo and afterwards are not known. The sources give figures from at least 30 to about 300. The figures are given with their sources.',
+  'The 1846 and 1847 newspaper reports on wages and the shepherd sentenced for refusing to go to his station were not read directly. They are read as quoted by a blog.',
+  'Sources disagree about the condition of the first shipment of frozen beef from Townsville in 1892, so this resource does not say.',
+  'Kilcoy is east of the Darling Downs, not on the Downs. It is included because of its connection to the region.',
+  'The National Museum of Australia’s figures for sheep and cattle are for Australia as a whole. Only the figure “nearly three million cattle” is for Queensland alone.',
+  'The word “dummying” is explained from general knowledge. The Archives page read does not define it. Please check the meaning.',
+  'No source was found for what shepherds were paid in rations, or for the Aboriginal people who lived near Gracemere apart from the Darumbal Enterprises page about Rockhampton.',
+  'The Queensland Historical Atlas and Queensland Heritage Register were not used for any fact, because the sites would not load.',
+  'The sources quote old letters that contain insulting words about Aboriginal people. Those words are not copied here.',
+  'No personal account by an Aboriginal person of this period was found in the sources read here, so this resource cannot give one.'
+],
+care: [
+  'Aboriginal and Torres Strait Islander readers are advised that this resource mentions places where people died. It says that violence against Aboriginal people and violence against settlers happened.',
+  'The old records often use insulting words about Aboriginal people. Some of the web pages named in the sources quote them. They are not copied here. This resource uses the words “Aboriginal people” and “Native Police”. The Native Police were Aboriginal men, usually from other parts of Australia, who served under European officers and were used to break up Aboriginal camps.',
+  'The author wants to ask Traditional Owners and Aboriginal community members to review this resource before it is used widely. The people to ask include the Giabal, Jarowair, Keinjan and Barunggam peoples for the Darling Downs, the Gayiri, Bidjara and Ghungalu peoples for the Springsure area, and the Darumbal people for Rockhampton. Until that review is done, please treat this resource as a draft.'
+],
+readMore: ['qsaSearch', 'trove'],
+images: {
+  yandilla: { file: 'images/sheep-washing-yandilla-1884.jpg', w: 960, h: 749, alt: 'A black and white photograph of a creek with a large flock of sheep on the bank and men working on a wooden platform and in yards.', caption: 'Sheep washing on Yandilla Station, Darling Downs, 1884. Men work in the creek and in the yards.', credit: 'John Oxley Library, State Library of Queensland (public domain)', url: 'https://commons.wikimedia.org/wiki/File:StateLibQld_2_295119_Sheep_washing_on_Yandilla_Station,_Darling_Downs,_1884.jpg' },
+  map: { file: 'images/squatting-map-darling-downs-1864.jpg', w: 960, h: 828, alt: 'An old printed map of the Darling Downs with the boundaries of runs, head stations, townships and roads marked in outline.', caption: 'Squatting Map of the Darling Downs District, 1864, by J. W. Buxton. It shows the approximate boundaries of runs and their head stations.', credit: 'John Oxley Library, State Library of Queensland (public domain)', url: 'https://commons.wikimedia.org/wiki/File:StateLibQld_2_180739_Squatting_map_of_the_Darling_Downs_district,_1864.jpg' },
+  gracemere: { file: 'images/gracemere-station-sketch-1869.jpg', w: 960, h: 643, alt: 'A brown-toned sketch of a lake or river with a small sailing boat, and trees and station buildings on the far bank.', caption: 'A sketch of Gracemere Station near Rockhampton, about 1869.', credit: 'Unknown artist, John Oxley Library, State Library of Queensland (public domain)', url: 'https://commons.wikimedia.org/wiki/File:StateLibQld_1_241830_Sketch_of_Gracemere_Station_near_Rockhampton.jpg' },
+  jimbour: { file: 'images/bullock-team-jimbour-1887.jpg', w: 960, h: 702, alt: 'A black and white photograph of a team of bullocks in front of large wooden woolsheds.', caption: 'A bullock team outside the woolsheds at Jimbour Station, Darling Downs, about 1887.', credit: 'John Oxley Library, State Library of Queensland (public domain)', url: 'https://commons.wikimedia.org/wiki/File:StateLibQld_1_43351_Bullock_team_outside_the_woolsheds_at_Jimbour_Station,_Queensland,_ca._1887.jpg' },
+  shearers: { file: 'images/shearers-1880s.jpg', w: 960, h: 610, alt: 'A black and white group photograph of many men and boys outside a wooden shearing shed. Some in the front row sit with fleeces.', caption: 'Shearers outside a shearing shed, between 1880 and 1890. Four men at the front are shearing with hand shears. The sources read here do not say who the men are.', credit: 'John Oxley Library, State Library of Queensland (public domain)', url: 'https://commons.wikimedia.org/wiki/File:StateLibQld_2_173975_Portrait_of_shearers_outside_a_shearing_shed,_1880-1890.jpg' }
+},
+teacherNotes: [
+  'Before you use this in class, please seek advice from Traditional Owners of your area. This resource has not yet been reviewed by Aboriginal community members.',
+  'Give students the content warning before they start. Tell them they may stop at any time. Check whether any students have family connections to the events.',
+  'Suggested use: students read the Overview and Timeline, then choose one theme (Aboriginal people and the Native Police, land laws, sheep to cattle, or drought) and use the Places and Real lives pages. Then answer two or three discussion questions.',
+  'The answers are suggestions. They are behind “Show” buttons. The student version has no answers in its code.',
+  'Some of the linked source pages quote offensive words from the records. Look at them before you show them to a class. Preview the pages on Kilcoy, Canning Creek and Cullin-la-ringo before using them.'
+],
+discuss: [
+  { q: 'Why did the first squatters come to the Darling Downs, and who worked for them?', a: ['The State Library of Queensland says they came to sell good raw wool to English mills, and that many were younger sons of English and Scottish gentry. They ruled over a labour force of travelling bush workers, stockmen and shepherds. Labour was recruited in Sydney, with a free fare and a bonus.'] },
+  { q: 'How did Aboriginal people use the grasslands before the squatters came? What does the phrase “cultural burning” mean?', a: ['The Keinjan, Giabal, Jarowair and Barunggam peoples had lived on the Downs for thousands of years. They practised a burning season to manage the grasses of the plains. Wallis and Burke write that the grasslands were vital to Aboriginal people and were managed by annual cultural burning.'] },
+  { q: 'Wallis and Burke describe 1840 to the end of the 1850s on the Downs as almost continuous conflict. Use two figures from the Timeline to show what they mean. Whose deaths are counted, and whose are not recorded?', a: ['Examples: 92 conflict events; about 90 per cent on pastoral runs; 16 events and 27 deaths in 1848 (20 Aboriginal people and 7 Europeans); at least 13 shepherds killed from 1842 to 1843.', 'Students should notice that deaths of Aboriginal people at events such as Canning Creek and Kilcoy were recorded by others and that the people responsible were not named. The numbers for some events are not known.'] },
+  { q: 'George Leslie wrote that he had “given them what they will not forget in a hurry”. What does Wallis and Burke’s reading of this tell us? What does a letter like this show, and what does it not show?', a: ['They read it as a major reprisal. It shows how a squatter described his response to the loss of sheep. It does not show what Aboriginal people thought, or what happened to them. It is one person’s account.'] },
+  { q: 'Look at the land laws in the Timeline (1868, 1876, 1884). What did each try to do? Why do the State Archives and the National Museum of Australia say they did not fully work?', a: ['The 1868 Act opened land to selection but let pastoralists make pre-emptive selections along creek and river banks. The 1876 Act tried to stop dummying, but the efforts were unsuccessful. The 1884 Act abolished pre-emptive purchases.', 'The Museum says squatters found ways to hold on to productive country.'] },
+  { q: 'Why did the Archer family move their sheep from Gracemere to Tambo? What does this show about why stations changed from sheep to cattle?', a: ['Black spear grass overran the country and spoiled the wool, and the station’s wool book described more and more bales as “seedy”. By 1871 the manager wrote that the paddocks were “very little good”. The sheep were driven to Tambo from 1872 to 1874, and by 1880 no sheep were left at Gracemere.', 'Gracemere is one example. Students should say that other stations may have had other reasons.'] },
+  { q: 'The Federation Drought (1895 to 1903) was the worst in Australia’s history, measured by stock losses. Use the figures to explain what it did to sheep and cattle, and to the squatters.', a: ['Australia’s sheep fell from 106 million in 1892 to 54 million in 1903. The country lost more than 40 per cent of its cattle, nearly three million in Queensland. Banks foreclosed on some stations, and the Museum says the drought ended squatter-dominated pastoralism as large stations were divided into smaller holdings.', 'Note that the Museum’s figures are for Australia as a whole, except the Queensland cattle number.'] },
+  { q: 'What is missing from the records used here? What voices are not heard, and where might a historian look for them?', a: ['Almost all the records were written by squatters, officials and settlers. Aboriginal people’s own accounts are missing, and so are most shepherds’ and workers’ own accounts. A historian can use oral history, Traditional Owner knowledge and archaeology.'] },
+  { q: 'What would you want to ask Traditional Owners before using this resource with a class? List three questions.', a: ['Examples: Who are the right people to speak about this Country? Which parts are wrong, or hurt? Is there a name or a story that should be told by them and not by the author? Is it all right to name people who have died?'] }
+]
+};
