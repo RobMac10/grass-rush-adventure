@@ -3,15 +3,16 @@
 // Run:  node build.js
 // Source of truth: src/info.js (all text, facts, quotations and discussion questions), src/sources.js (source list),
 //   src/app.js (page code), src/index.html (page shell), src/styles.css, and images/.
-// Student build removes: the "discuss" and "teacherNotes" data, app.js blocks between /*T*/ markers,
+// src/folklore.js holds the Folklore and legends section (folklore data, extra sources, and folkTeach teacher prompts).
+// Student build removes: the "discuss", "teacherNotes" and "folkTeach" data, app.js blocks between /*T*/ markers,
 //   and index.html blocks between <!--T--> markers. The student files hold no discussion answers.
 const fs = require('fs'), path = require('path');
 const root = __dirname, src = path.join(root, 'src');
 global.window = {};
-for (const f of ['info', 'sources']) require(path.join(src, f + '.js'));
+for (const f of ['info', 'sources', 'folklore']) { const fp = path.join(src, f + '.js'); if (fs.existsSync(fp)) require(fp); }
 const INFO = JSON.parse(JSON.stringify(window.INFO));
 
-function studentData(D) { delete D.discuss; delete D.teacherNotes; return D; }
+function studentData(D) { delete D.discuss; delete D.teacherNotes; delete D.folkTeach; return D; }
 function codeMode(s, mode) {
   if (mode === 'student') s = s.replace(/\/\*T\*\/[\s\S]*?\/\*\/T\*\//g, '');
   return s.replace(/\/\*\/?T\*\//g, '');

@@ -138,3 +138,12 @@ footer{border-top:4px double var(--rule);margin-top:30px;padding-top:10px;font-s
 
 .homebar{margin:40px 0 8px;padding-top:20px;border-top:1px solid var(--rule);text-align:center}
 .homebar .btn{min-width:160px}
+
+/* ---- Folklore and legends section ---- */
+.b-folk{color:var(--blue);border:1.5px dashed var(--blue);background:#dfe8f3}
+.folkbanner{border:2px dashed var(--blue);background:#e8eef6;padding:10px 14px;margin:14px 0}
+.folkbanner h2{margin-top:0;border:0}
+.card.folk{border-top:5px dashed var(--blue)}
+.folkfrom,.folkknown{margin:10px 0;padding:6px 12px;border-left:6px solid var(--rule);background:#fffaf0}
+.folkknown{border-left-color:var(--green)}
+.folkfrom h3,.folkknown h3{margin-top:2px}

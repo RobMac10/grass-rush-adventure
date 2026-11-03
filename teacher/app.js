@@ -78,7 +78,7 @@
 
   var SECTIONS = [
     ['#/', 'Overview'], ['#/timeline', 'Timeline'], ['#/places', 'Places'], ['#/people', 'People and groups'],
-    ['#/lives', 'Real lives'], ['#/know', 'Did you know'], ['#/sources', 'Sources']
+    ['#/lives', 'Real lives'], ['#/know', 'Did you know'], ['#/folklore', 'Folklore and legends'], ['#/sources', 'Sources']
   ];
    SECTIONS.push(['#/discuss', 'Discussion questions']); 
 
@@ -136,9 +136,10 @@
       '#/people': 'Real people, groups and organisations named in the sources.',
       '#/lives': 'Short accounts of real people from the records.',
       '#/know': 'Facts from the sources that are worth knowing.',
+      '#/folklore': 'Yarns and legends from the period. All are labelled as unproven.',
       '#/sources': 'Every source used, and where sources disagree.'
     };
-    SECTIONS.slice(1, 7).forEach(function (s) {
+    SECTIONS.slice(1, 8).forEach(function (s) {
       tiles.appendChild(el('a', { 'class': 'tile', href: s[0] }, [el('b', { text: s[1] }), el('span', { text: blurbs[s[0]] })]));
     });
     kids.push(tiles);
@@ -235,6 +236,35 @@
     setPage('Did you know', kids);
   }
 
+  function viewFolklore() {
+    var F = D.folklore, kids = [];
+    kids.push(p(F.intro, 'lead'));
+    var ban = el('div', { 'class': 'folkbanner', role: 'note' }, [el('h2', { text: F.banner.head })].concat(F.banner.text.map(function (t, i) { return el('p', i === 0 ? { 'class': 'strong', text: t } : { text: t }); })));
+    kids.push(ban);
+    F.stories.forEach(function (s, i) {
+      var a = el('article', { 'class': 'card folk' });
+      a.appendChild(badge('Folklore: unproven', 'b-folk'));
+      a.appendChild(el('h2', { text: s.title }));
+      if (s.where) a.appendChild(el('p', { 'class': 'where', text: s.where }));
+      a.appendChild(el('h3', { text: 'The story' }));
+      paras(s.text).forEach(function (x) { a.appendChild(x); });
+      a.appendChild(el('div', { 'class': 'folkfrom' }, [el('h3', { text: 'Where it comes from' }), p(s.from)]));
+      a.appendChild(el('div', { 'class': 'folkknown' }, [el('h3', { text: 'What we actually know' })].concat(paras(s.known))));
+      var sl = srcP(s.src); if (sl) a.appendChild(sl);
+      
+      var T = D.folkTeach && D.folkTeach[i];
+      if (T) {
+        var tn = el('div', { 'class': 'tnote' }, [el('h3', { text: 'Teacher: discussion prompt' }), el('p', { 'class': 'strong', text: T.q })]);
+        var notes = el('div'); T.a.forEach(function (t) { notes.appendChild(p(t)); });
+        tn.appendChild(toggle('teacher notes', notes));
+        a.appendChild(tn);
+      }
+      
+      kids.push(a);
+    });
+    setPage('Folklore and legends', kids);
+  }
+
   function viewSources() {
     var kids = [p(D.sourcesIntro, 'lead')];
     kids.push(el('div', { 'class': 'panel check' }, [el('h2', { text: 'Where sources disagree, or the record has gaps' }), ul(D.disagree)]));
@@ -279,6 +309,7 @@
     else if (r === 'people') viewPeople();
     else if (r === 'lives') viewLives();
     else if (r === 'know') viewKnow();
+    else if (r === 'folklore') viewFolklore();
     else if (r === 'sources') viewSources();
      else if (r === 'discuss') viewDiscuss(); 
     else viewOverview();
